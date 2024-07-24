@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http_equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<title>Coliseu Pizzaria</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+	
+</head>
+<body>
+	<!-- Aqui inicia a parte do HOMEE -->
+	<header class="max-width bg" id="home">
+		<div class="container">
+			<div class="menu">
+				<div class="logo"></div>
+				<div class="desktop-menu">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">Sobre</a></li>
+						<li><a href="#service">Serviços</a></li>
+						<li><a href="#">Menu</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="call">
+				<div class="left">
+					<img src="image/1.png" alt="">
+				</div>
+				<div class="right">
+					<h1 class="color-laranja text-gd">Coliseu Pizzaria</h1>
+					<h2 class="color-cinza-1 text-md">Experimente a melhor pizza da região</h2>
+					<p class="text-pq">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+					<button>Ver Menu</button>
+
+				</div>
+			</div>
+		</div>
+		<button id="back-to-top">^</button>
+	</header>
+
+	<!-- Aqui começa a parte do BODY -->
+
+	<section class="max-width bg" id="about">
+		<div class="container">
+			<div class="call">
+				<div class="left">
+					<span class="text-title color-laranja">Sobre Nós</span>
+					<h2 class="text-md color-cinza-1">Nós entregamos a você a pizza mais saborosa</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+					<button>Saiba Mais</button>
+				</div>
+				<div class="right"></div>
+					<img src="image/2.png" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!--Aqui começa o SERVIÇOS-->
+	<section class="max-width bg" id="service">
+		<div class="container">
+			<div class="content">
+				<div class="titulo">
+					<span class="text-title color-laranja">Ofertas</span>
+					<h2 class="text-md color-cinza-1">Nossos Serviços</h2>
+				</div>
+				<div class="down">
+					<div class="box">
+						<i class="fa-solid fa-pizza-slice text-gd color-laranja"></i>
+						<h2>A melhor pizza</h2>
+						<p>ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ut!</p>
+					</div>
+					<div class="box">
+						<i class="fa-solid fa-motorcycle text-gd color-laranja"></i>
+						<h2>Entrega Rápida</h2>
+						<p>ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ut!</p>
+					</div>
+					<div class="box">
+						<i class="fa-solid fa-utensils text-gd color-laranja"></i>
+						<h2>Aproveite sua Pizza</h2>
+						<p>ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ut!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Aqui começa o MENU-->
+	<section class="max-width bg" id="menu">
+		<div class="container">
+			<div class="content">
+				<div class="titulo">
+					<span class="text-title color-laranja">Pizza do Dia</span>
+					<h2 class="text-md color-laranja">Sabores do Dia</h2>
+				</div>
+				<div class="down">
+					<div class="box">
+						<img src="image/4.png" alt="">
+						<h2 class="color-laranja">Calabresa</h2>
+						<p class="text-md">Com cebola e muuita Calabresa</p>
+						<p>P:R$20,00</p>
+						<p>M:R$30,00</p>
+						<p>G:R$40,00</p>	
+					</div>
+					<div class="box">
+						<img src="image/3.png" alt="">
+						<h2 class="color-laranja">Strogonoff</h2>
+						<p class="text-md">Feita com Strogonoff recheado de Filé Mignon e Champignon</p>
+						<p>P:R$25,00</p>
+						<p>M:R$45,00</p>
+						<p>G:R$55,00</p>
+					</div>
+					<div class="box">
+						<img src="image/5.png" alt="">
+						<h2 class="color-laranja">Frango com Catupiry</h2>
+						<p class="text-md">Catupiry de primeira misturado com filé de frango bem temperado</p>
+						<p>P:R$22,00</p>
+						<p>M:R$35,00</p>
+						<p>G:R$45,00</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		// Botão pra voltar top
+		var btn = document.querySelector("#back-to-top")
+
+		btn.addEventListener("click", function(){
+			window.scrollTo(0,0);
+		})
+	</script>
+</body>
+</html>
